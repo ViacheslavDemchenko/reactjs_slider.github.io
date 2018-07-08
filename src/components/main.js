@@ -4,6 +4,8 @@ import Row from 'react-bootstrap/lib/Row';
 import Col from 'react-bootstrap/lib/Col';
 import styled from 'styled-components';
 
+import Slider from './slider'
+
 const Repair = styled.div`
 	color: #ffffff;
 	font-size: 30px;
@@ -32,6 +34,7 @@ const CallBtn = styled.button`
 	font-size: 18px;
 	font-weight: bold;
 	margin-top: 32px;
+	border-color: transparent;
 `
 
 class Main extends React.Component {
@@ -49,7 +52,7 @@ class Main extends React.Component {
 						<CallBtn>Оставить заявку!</CallBtn>
 					</Col>
 					<Col lg={6} lgOffset={1}>
-
+						<Slider />
 					</Col>
 				</Row>
 			)

@@ -47,7 +47,7 @@ const CallButton = styled.button`
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 22,04px;
-
+	border-color: transparent;
 `
 
 class TelNumber extends React.Component {
